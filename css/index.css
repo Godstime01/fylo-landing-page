@@ -1,0 +1,70 @@
+:root{
+    --darkblue : hsl(243, 87%, 12%);
+    --desaturatedblue: hsl(238, 22%, 44%);
+    --brightblue: hsl(224, 93%, 58%);
+    --cyan: hsl(170, 45%, 43%);
+
+    --grayishblue: hsl(240, 75%, 98%);
+    --lightgray: hsl(0, 0%, 75%);
+    --white: white;
+
+    --headingfamily: "Raleway";
+    --bodyFontFamily: "Open Sans"; 
+
+    --sectionpadding: 4rem;
+}
+
+body{
+    font-family: var(--bodyFontFamily) var(--sectionpadding / 3) !important;
+    font-weight: 400 !important;
+}
+
+h1, h2, h3{
+    font-family: var(--headingfamily) !important;
+    font-weight: 700 !important;
+}
+
+nav .container-sm{
+    padding: 1rem !important;
+}
+
+.container-sm{
+    padding: var(--sectionpadding) !important;
+}
+
+
+
+.card{
+    background-color: var(--white);
+    border: none;
+    margin-top: 2rem;
+}
+
+section:nth-of-type(2){
+    background-color: var(--grayishblue);
+}
+
+section:nth-of-type(3){
+    background-color: var(--desaturatedblue);
+}
+
+footer{
+    background-color: var(--darkblue);
+    color: var(--lightgray) !important;
+}
+
+footer a{
+    color: var(--white);
+    text-decoration: none;
+    margin-block: 1rem;
+}
+
+
+@media (max-width: 400px) {
+    .logo{
+        width: 50px !important;
+        /* height: 40px !important; */
+    }
+
+    .container-sm 
+}

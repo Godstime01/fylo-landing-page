@@ -15,8 +15,9 @@
 }
 
 body{
-    font-family: var(--bodyFontFamily) var(--sectionpadding / 3) !important;
+    font-family: var(--bodyFontFamily) !important;
     font-weight: 400 !important;
+    font-size: 13px !important;
 }
 
 h1, h2, h3{
